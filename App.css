@@ -1,0 +1,23 @@
+.App {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 10px;
+}
+
+
+button {
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+
+.Post{
+  border: 1px solid black;
+  padding: 15px;
+}
